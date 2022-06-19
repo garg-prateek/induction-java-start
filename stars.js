@@ -7,4 +7,4 @@ function showStars(rows){
     }
 }
 
-showStars(5)
+showStars(6)
