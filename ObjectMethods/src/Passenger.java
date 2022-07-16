@@ -34,9 +34,9 @@ public class Passenger {
 	}
 
 	@Override
-	public boolean equals(Object obj) {
+	public boolean equals(Object obj) { // here instead of object Passenger and at last no need to typecast it.
 		Passenger passenger = (Passenger) obj;
-		if (passenger.getId() == this.getId() && passenger.getFirstName().equals(this.firstName)
+		if (passenger.getId() == this.getId() && passenger.getFirstName().equals(this.firstName) 
 				&& passenger.getLastName().equals(this.lastName)) {
 			return true;
 		}
